@@ -11,6 +11,17 @@ const Header = () => {
       className="header__logo"
       src={logo} alt="company's logo"
     />
+    <div
+    className="header__search">
+       
+       <input
+       className="header__searchInput"
+       type="text" />
+       {/* logo */}
+           </div>
+           <div className="header__nav">
+             
+           </div>
       
     </div>
   );
