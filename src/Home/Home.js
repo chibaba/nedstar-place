@@ -1,4 +1,5 @@
 import React from 'react';
+import Product from '../Product/Product';
 import './Home.css'
 
 const Home = () => {
@@ -6,7 +7,25 @@ const Home = () => {
     <div className="home">
     <div className="home-container">
     <img  className="home__image" 
-    src="https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/06/01122619/700VastOfNight.jpg" />
+    src="https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/06/01122619/700VastOfNight.jpg"
+    alt="home-prime" />
+    <div className="home__row">
+      {/* PRODUCT */}
+      <Product />
+      <Product />
+
+      </div>
+
+      <div className="home__row">
+      {/* PRODUCT */}
+      {/* PRODUCT */}
+      {/* PRODUCT */}
+
+      </div>
+      <div className="home__row">
+      {/* PRODUCT */}
+
+      </div>
 
     </div>
     </div>
