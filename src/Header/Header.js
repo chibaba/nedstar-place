@@ -4,7 +4,7 @@ import './Header.css'
 
 import logo from '../logo/logo-ned.png'
 import SearchIcon from "@material-ui/icons/Search";
-import ShoppBasketIcon from "@material-ui/icons/ShoppingBasket";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 const Header = () => {
   return (
@@ -44,7 +44,7 @@ const Header = () => {
                className="header__optionLineTwo">Prime</span>
              </div>
 
-             <div className="heade__optionBasket">
+             <div className="header__optionBasket">
                <ShoppingBasketIcon />
                <span className="header__optionaLineTwo header__basketCount"
                >0</span>
