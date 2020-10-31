@@ -13,7 +13,11 @@ const Home = () => {
     alt="home-prime" />
     <div className="home__row">
       {/* PRODUCT */}
-      <Product />
+      <Product title='The lean Startup'
+            price={28.76}
+            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
+            rating={5}
+      />
       <Product />
 
 
