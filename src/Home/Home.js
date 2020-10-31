@@ -13,20 +13,32 @@ const Home = () => {
     alt="home-prime" />
     <div className="home__row">
       {/* PRODUCT */}
-      <Product title='The lean Startup'
+      <Product 
+      id="12345"
+      title='The lean Startup'
             price={28.76}
             image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
             rating={5}
       />
-      <Product />
+      <Product
+        id="d4567"
+        title="KenWood Kmix stand Mixer for baking, styling kitchen Mixer with kbeater.Dough Hook and Whisk, 5 litre Glass Bowl"
+        price={239.09}
+        rating={4}
+        image="https://images-na.ssl-images-amazon.com/I/810%2BGNdkzKL._AC_SX450_.jpg"
+       />
 
 
       </div>
 
       <div className="home__row">
-      <Product />
-      <Product />
-      <Product />
+      <Product 
+        id="123dfe"
+        title="Samsung LC49RG92345SD 4' Curved Led Gaming Monitor"
+        price={199.99}
+        rating={3}
+        image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_jpg"
+      />
    
 
       </div>
