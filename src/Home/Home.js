@@ -16,16 +16,20 @@ const Home = () => {
       <Product />
       <Product />
 
+
       </div>
 
       <div className="home__row">
-      {/* PRODUCT */}
-      {/* PRODUCT */}
-      {/* PRODUCT */}
+      <Product />
+      <Product />
+      <Product />
+   
 
       </div>
       <div className="home__row">
       {/* PRODUCT */}
+      <Product />
+
 
       </div>
 
