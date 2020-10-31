@@ -3,6 +3,7 @@ import React from 'react';
 import './Header.css'
 
 import logo from '../logo/logo-ned.png'
+import SearchIcon from "@material-ui/icons/Search";
 
 const Header = () => {
   return (
@@ -17,6 +18,8 @@ const Header = () => {
        <input
        className="header__searchInput"
        type="text" />
+       <SearchIcon
+       className="header__searchIcon" />
        {/* logo */}
            </div>
            <div className="header__nav">
