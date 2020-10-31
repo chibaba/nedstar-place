@@ -11,6 +11,9 @@ const Product = () => {
           <small>$</small>
           <strong>19.99</strong>
         </p>
+        <div className="product__rating">
+          <p></p>
+        </div>
       </div>
     </div>
   );
