@@ -15,7 +15,7 @@ const Home = () => {
       {/* PRODUCT */}
       <Product 
       id="12345"
-      title='The lean Startup'
+      title='The lean startup: How Constant innovation creates Radically Successfully Business PaperBack'
             price={28.76}
             image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
             rating={5}
@@ -58,7 +58,13 @@ const Home = () => {
       </div>
       <div className="home__row">
       {/* PRODUCT */}
-      <Product />
+      <Product 
+        id="123dfe"
+        title="Samsung LC49RG92345SD 4' Curved Led Gaming Monitor Super Ultra Wide"
+        price={199.99}
+        rating={3}
+        image="https://brain-images-ssl.cdn.dixons.com/2/7/10206272/u_10206272.jpg"
+      />
 
 
       </div>
