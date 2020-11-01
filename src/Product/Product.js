@@ -11,7 +11,11 @@ const   addToBasket = () => {
   dispatch({
     type: 'ADD_TO_BASKET',
     item: {
-      id: id
+       id =id,
+       tittle = title,
+       image = image,
+       price= price,
+       rating = rating
     }
   })
 
