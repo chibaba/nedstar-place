@@ -26,6 +26,7 @@ const Subtotal = () => {
     thosandSeperator={true}
     prefix={"$"}
     />
+    <button>Proceed to checkout</button>
       
     </div>
   );
