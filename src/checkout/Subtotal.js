@@ -13,7 +13,7 @@ const Subtotal = () => {
       <>
       <p> 
           Subtotal({ShoppingBasket.length} items):
-          <strong>{` ${value}`}</strong>
+          <strong>0</strong>
       </p>
       <small className="subtotal__gift">
         <input type="checkbox" /> This Order contain a gift
@@ -21,7 +21,7 @@ const Subtotal = () => {
       </>
     )}
     decimalScale={2}
-    value={getBasketTotal(basket)}
+    value={0}
     displayType={"text"}
     thosandSeperator={truue}
     prefix={"#"}
