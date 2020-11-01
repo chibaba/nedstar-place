@@ -23,8 +23,8 @@ const Subtotal = () => {
     decimalScale={2}
     value={0}
     displayType={"text"}
-    thosandSeperator={truue}
-    prefix={"#"}
+    thosandSeperator={true}
+    prefix={"$"}
     />
       
     </div>
