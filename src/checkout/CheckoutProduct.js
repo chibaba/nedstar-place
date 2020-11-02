@@ -1,6 +1,6 @@
 import React from 'react';
-
-const CheckoutProject = ({ id, image, title, price, rating}) => {
+import './CheckoutProduct.css'
+const CheckoutProduct = ({ id, image, title, price, rating}) => {
   return (
     <div className='checkoutProducts'>
      <img className='checkoutProduct__image' src={image}
@@ -24,4 +24,4 @@ const CheckoutProject = ({ id, image, title, price, rating}) => {
   );
 }
 
-export default CheckoutProject;
+export default CheckoutProduct;

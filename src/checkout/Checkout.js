@@ -4,7 +4,7 @@ import './Checkout.css'
 import Subtotal from './Subtotal';
 import Banner from '../logo/banner.jpg'
 import { useStateValue } from '../context/StateProvider';
-import { CheckoutProduct} from './CheckoutProject'
+import  CheckoutProduct from './CheckoutProduct'
 
 const Checkout = () => {
   const [{ basket}, dispatch] = useStateValue();
@@ -23,6 +23,7 @@ const Checkout = () => {
         <CheckoutProduct
         id={item.id}
         title={item.title}
+        price={item.price}
         image={item.image}
         rating={item.rating}
          />
