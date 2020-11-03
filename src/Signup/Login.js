@@ -24,7 +24,17 @@ const Login = () => {
 
         <h5>Password</h5>
         <input type='password' />
+        <button 
+        className='login__signInButton'> Sign in</button>
       </form>
+      <p>
+        By Signing-in you agree to Nedstar's
+        Conditions of Use & Sale. Please
+        see our privacy Notice, our Cookie Notice
+        and our Interest-Based Ads
+        Notice.
+      </p>
+      <button className="login__registerButton">Create your Nedstar account</button>
     </div>
       
     </div>
