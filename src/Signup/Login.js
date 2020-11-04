@@ -28,7 +28,9 @@ const Login = () => {
         />
 
         <h5>Password</h5>
-        <input type='password' />
+        <input type='password' value={password} onChanege=
+          {e=>setPassword(e.target.value)}
+        />
         <button 
         className='login__signInButton'> Sign in</button>
       </form>
