@@ -11,6 +11,17 @@ const Login = () => {
   const  [email, setEmail] = useState('');
   const  [password, setPassword] = useState('');
 
+  const signIn = e => {
+    e.preventDefault();
+
+    // enter firebase code
+  }
+
+  const register = e => {
+    e.preventDefault();
+    // apply firebase code
+  }
+
   return (
     <div className='login'>
     <Link to="/">
@@ -31,7 +42,7 @@ const Login = () => {
         <input type='password' value={password} onChanege=
           {e=>setPassword(e.target.value)}
         />
-        <button 
+        <button type='submit' onClick={signIn}
         className='login__signInButton'> Sign in</button>
       </form>
       <p>
@@ -41,7 +52,8 @@ const Login = () => {
         and our Interest-Based Ads
         Notice.
       </p>
-      <button className="login__registerButton">Create your Nedstar account</button>
+      <button  onClick={register}
+      className="login__registerButton">Create your Nedstar account</button>
     </div>
       
     </div>
