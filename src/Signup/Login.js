@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import { Link} from "react-router-dom";
-
+import { Link, useHistory} from "react-router-dom";
+import {auth} from "../firebase"
 import logo from '../logo/logo-ned.png' 
 
 
@@ -8,18 +8,34 @@ import logo from '../logo/logo-ned.png'
 import './Login.css'
 
 const Login = () => {
+  const history = useHistory();
   const  [email, setEmail] = useState('');
   const  [password, setPassword] = useState('');
 
   const signIn = e => {
     e.preventDefault();
 
+    auth
+        .signInWithEmailAndPassword(email, password)
+        .then(auth => {
+          history.push('/')
+        })
+        .catch(error =>alert(error.message))
+
     // enter firebase code
   }
 
   const register = e => {
     e.preventDefault();
-    // apply firebase code
+
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((auth) => {
+        if (auth) {
+          history.push('/')
+        }
+      })
+      .catch(error => alert(error.message))
   }
 
   return (
