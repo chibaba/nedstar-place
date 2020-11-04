@@ -55,7 +55,7 @@ const Login = () => {
         />
 
         <h5>Password</h5>
-        <input type='password' value={password} onChanege=
+        <input type='password' value={password} onChange=
           {e=>setPassword(e.target.value)}
         />
         <button type='submit' onClick={signIn}
