@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link} from "react-router-dom";
 
 import logo from '../logo/logo-ned.png' 
@@ -8,6 +8,9 @@ import logo from '../logo/logo-ned.png'
 import './Login.css'
 
 const Login = () => {
+  const  [email, setEmail] = useState('');
+  const  [password, setPassword] = useState('');
+
   return (
     <div className='login'>
     <Link to="/">
