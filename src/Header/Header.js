@@ -45,7 +45,7 @@ const handleAuthentication = () => {
                <span
                className="header__optionLineOne">Hello Guest</span>
                <span 
-               className="header__optionLineTwo">{user ? 'Sign out' : 'Sign In'}</span>
+               className="header__optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
 
              </div>
              </Link>
