@@ -16,7 +16,7 @@ function App() {
  useEffect(() => {
 
   auth.onAuthStateChanged(authUser => {
-    console.log('The user is >>>', authUser);
+    console.log('The user is >>> ', authUser);
 
     if(authUser) {
 
