@@ -58,7 +58,7 @@
 }
 .header__option {
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
   color: aliceblue;
